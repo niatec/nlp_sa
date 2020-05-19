@@ -1,0 +1,36 @@
+/* -------------------- Table of contents --------------------
+
+1. Sections
+    1.1. Intro
+    1.1. Counters
+    1.1. Subscribe
+    1.1. SignUp
+
+----------------------- Table of content -------------------- */
+
+/* --------------------
+   -------------------- Intro -------------------- */
+.b-intro__background { background-image: url('banner.jpg'); }
+
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('banner.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('banner.jpg'); }
+
+.m-touch .b-intro__video { background-image: url('banner.jpg'); }
+
+/* --------------------
+   -------------------- Counters -------------------- */
+.b-counters { background-image: url('banner.jpg'); }
+
+/* --------------------
+   -------------------- Subscribe -------------------- */
+.b-subscribe { background-image: url('banner.jpg'); }
+
+/* --------------------
+   -------------------- SignUp -------------------- */
+.b-signUp { background-image: url('banner.jpg'); }
+
+.table-sat td {
+	border: 1px #c2c2c2 solid; 
+	padding: 7px; 
+	font-size: 85%;
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-EN">
+
+  <head>
+
+      <!-- PAGE TITLE -->
+      <title>NLP :: Semantik Analyse</title>
+
+      <!-- META-DATA -->
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1" />
+
+      <!-- FAVORITE AND TOUCH ICONS -->
+      <link rel="icon" href="assets/img/favicons/favicon.ico" />
+
+      <!-- BOOTSTRAP GRID SYSTEM -->
+      <link rel="stylesheet" href="assets/plain/css/bootstrap.gs.css" type="text/css" />
+
+      <!-- JQUERY PLUG-IN's CSS -->
+      <link rel="stylesheet" href="assets/plain/css/jquery.uniform.css" type="text/css" />
+      <link rel="stylesheet" href="assets/plain/css/jquery.owl.carousel.css" type="text/css" />
+      <link rel="stylesheet" href="assets/plain/css/jquery.leaflet.popup.css" type="text/css" />
+
+      <!-- FONTS AND ICONS -->
+      <link rel="stylesheet" href="assets/plain/fonts/lato/lato.css" type="text/css" />
+      <link rel="stylesheet" href="assets/plain/fonts/oswald/oswald.css" type="text/css" />
+
+      <link rel="stylesheet" href="assets/plain/fonts/ionicons/ionicons.css" type="text/css" />
+      <link rel="stylesheet" href="assets/plain/fonts/fontawesome/fontawesome.css" type="text/css" />
+
+      <!-- COLOR SCHEME -->
+      <link rel="stylesheet" href="assets/plain/css/themes/blue.css" type="text/css" id="theme-link" />
+      <link rel="stylesheet" href="assets/plain/css/layouts/light.css" type="text/css" id="layout-link" />
+
+      <!-- TEMPLATE STYLES -->
+      <link rel="stylesheet" href="assets/plain/css/forms.css" type="text/css" />
+      <link rel="stylesheet" href="assets/plain/css/template.css" type="text/css" />
+
+      <!--[if lt IE 10]>
+          <link rel="stylesheet" href="assets/plain/css/ie.css" type="text/css" />
+      <![endif]-->
+
+      <link rel="stylesheet" href="assets/plain/css/custom.css" type="text/css" />
+
+  </head>
+
+  <body data-spy="scroll">
+
+      <!-- Header -->
+      <header class="b-header b-header__float b-header__transparent" id="header">
+          <div class="b-header_inner container">
+              <div class="row">
+
+                  <div class="col-xs-6 col-sm-6 col-md-2 col-lg-3">
+                      <a href="#" class="b-header_logo b-header_logo__text"><span class="m-colorized">SS</span>2020</a>
+                  </div>
+
+                  <div class="col-xs-6 col-sm-6 col-md-10 col-lg-9">
+
+                      <nav class="b-header_nav m-transition js-scroll-spy">
+                          <a href="#aufgaben">Aufgaben</a>
+                          <a href="#ergebnisse">Ergebnisse</a>
+                          <a href="#tools">Tools</a>
+                      </nav>
+
+                      <span class="b-header_nav_toggle m-transition hidden-md hidden-lg i-icon i-ion-navicon-round js-nav"></span>
+
+                  </div>
+
+              </div>
+          </div>
+      </header>
+      <!-- Header end -->
+
+      <!-- Banner section -->
+      <section class="b-intro b-intro__background b-section" id="intro">
+
+          <div class="b-intro_wrapper">
+              <div class="b-intro_content">
+
+                  <div class="b-intro_container container">
+
+                      <header class="b-intro_header">
+                          <p>Natural Language Processing</p>
+                          <h1>Semantik analyse</h1>
+                      </header>
+
+                      <p>R. Huang, K. Krylova</p>
+
+                      <div class="e-frame e-frame__xl e-frame__top"></div>
+                      <div class="e-frame e-frame__xl e-frame__bottom"></div>
+
+                  </div>
+
+              </div>
+          </div>
+
+      </section>
+      <!-- Banner section end -->
+
+
+
+
+      <!-- AUFGABEN -->
+      <section class="b-overview b-section js-tabs b-section__solid" id="aufgaben">
+          <div class="b-section_container container">
+              <header class="b-section_header b-section_header__stroked">
+                  <h2>Aufgaben</h2>
+              </header>
+              <!-- AUFGABEN -->
+              <div class="b-overview_section row" style="margin-bottom: 20px; text-align: left;">
+
+                  <div class="col-xs-12 col-md-6">
+
+                      <article class="b-overview_article">
+
+                          <header class="b-overview_header">
+
+                              
+
+                              <div class="b-overview_header_cell">
+
+                                  <h3>Aufgabe 1</h3>
+
+                              </div>
+
+                          </header>
+
+                          <p style="margin-bottom: 10px">Was ist die Verteilung der Entitäten-Kategorien (z.b. Person, Produkt oder Events) in den zitierenden Texten?</p>
+
+    
+
+                          </p>
+
+                      </article>
+
+                  </div>
+
+                  <div class="col-xs-12 col-md-6">
+
+                    <article class="b-overview_article">
+
+                        <header class="b-overview_header">
+                            <div class="b-overview_header_cell">
+
+                                <h3>Aufgabe 2</h3>
+
+                            </div>
+
+                        </header>
+
+                        <p style="margin-bottom: 10px;">Was ist die Verteilung der Entität-Kategorie "Person" in den zierenden Texten?</p>
+
+                    </article>
+
+                  </div>
+
+              </div>
+            <!-- DATA -->
+              <header class="b-section_header b-section_header__stroked">
+                <h2>Data</h2>
+                <p>https://github.com/WING-NUS/scisumm-corpus/tree/master/data/Training-Set-2018/*/<b>annotation</b></p>
+            </header>
+            <div class="b-overview_section row" style="margin-bottom: 20px; text-align: left;">
+                <p>
+                    Citance Number: 2 | Reference Article:  C00-2123.xml | Citing Article:  C02-1050.xml | Citation Marker Offset:  ['8'] | Citation Marker:  Tillman and Ney, 2000 | Citation Offset:  ['8'] | <b>Citation Text:  &#60;S sid ="8" ssid = "8"&#62;<span style="color: #009beb !important"> exists stack decoding algorithm (Berger et al., 1996), A* search algorithm (Och et al., 2001; Wang and Waibel, 1997) and dynamic-programming algorithms (Tillmann and Ney, 2000; GarciaVarea and Casacuberta, 2001), and all translate a given input string word-by-word and render the translation in left-to-right, with pruning technologies assuming almost linearly aligned translation source and target texts.</span>&#60;/S&#62;</b> | Reference Offset:  ['1','94'] | Reference Text:  &#60;S sid ="1" ssid = "1"&#62;In this paper, we describe a search procedure for statistical machine translation (MT) based on dynamic programming (DP).&#60;/S&#62;&#60;S sid ="94" ssid = "57"&#62;When translating the sentence monotonically from left to right, the translation of the German finite verb &apos;kann&apos;, which is the left verbal brace in this case, is postponed until the German noun phrase &apos;mein Kollege&apos; is translated, which is the subject of the sentence.</S> | Discourse Facet:  Method_Citation | Annotator:  Swastika Bhattacharya |
+                </p>
+            </div>
+          </div>
+      </section>
+      <!-- AUFGABEN end -->
+
+      <!-- ERGEBNISSE start-->
+      <section class="b-overview b-section js-tabs" id="ergebnisse">
+          <div class="b-section_container container">
+
+              <header class="b-section_header b-section_header__stroked">
+                  <h2>Ergebnisse</h2>
+                   
+              </header>
+              <div class="b-overview_section row">
+                   <a name="table-sat"></a>
+                   <p style="margin-top:30px; margin-bottom:30px;">Zahl der Entitäten-Kategorien in den zitierenden Texten: <b>2648 Entitäten für 742 Citation Texts</b></p>
+                   <table style="width:100%; border-collapse:collapse; margin-bottom: 50px;" class="table-sat">
+                    <tbody>
+                    <tr style="font-weight: bold;" bgcolor="#ebedf0">
+                    <td style="width: 20%">
+                    <p>Entität Type</p>
+                    </td>
+                    <td style="width: 15%">
+                    <p>Anzahl</p>
+                    </td>
+                    <td style="width: 65%">
+                    <p>Beschreibung</p>
+                    </td>
+
+                    </tr>
+                    <tr>
+                    <td>
+                    <p>DATE</p>
+                    </td>
+                    <td>
+                    <p>1151</p>
+                    </td>
+                    <td>
+                    <p>Absolute or relative dates or periods</p>
+                    </td>
+
+                    </tr>
+
+                    <tr>
+                    <td>
+                    <p>ORG</p>
+                    </td>
+                    <td>
+                    <p>729</p>
+                    </td>
+                    <td>
+                    <p>Companies, agencies, institutions</p>
+                    </td>
+
+                    </tr>
+
+                    <tr>
+                    <td>
+                    <p>PERSON</p>
+                    </td>
+                    <td>
+                    <p>724</p>
+                    </td>
+                    <td>
+                    <p>People, including fictional</p>
+                    </td>
+
+                    </tr>
+
+                    <tr>
+                    <td>
+                    <p>PRODUCT</p>
+                    </td>
+                    <td>
+                    <p>22</p>
+                    </td>
+                    <td>
+                    <p>Objects, vehicles, foods, etc. (Not services.)</p>
+                    </td>
+
+                    </tr>
+
+                    <tr>
+                    <td>
+                    <p>LOC</p>
+                    </td>
+                    <td>
+                    <p>21</p>
+                    </td>
+                    <td>
+                    <p>Non-GPE locations, mountain ranges, bodies of water</p>
+                    </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+
+
+              <!-- GRAFIKEN -->
+              <div style="margin-top: 50px;">
+                <div class='tableauPlaceholder' id='viz1589874755735' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Semantik_Analyse_w970&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Semantik_Analyse_w970&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Se&#47;Semantik_Analyse_w970&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589874755735');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='970px';vizElement.style.height='1127px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+              </div>
+              </div>
+              <!--GRAFIKEN end -->
+          </div>
+
+      </section>
+      <!-- ERGEBNISSE end -->
+      
+
+      <!-- TOOLS start -->
+      <section class="b-speakers b-section b-section__solid" id="tools" >
+          <div class="b-section_container container">
+
+              <header class="b-section_header b-section_header__stroked">
+                  <h2>Tools</h2>
+              </header>
+
+              <div class="b-speakers_list row">
+
+                  <div class="b-speakers_cell col-xs-12 col-sm-6 col-md-4">
+
+                      <div class="b-speakers_view">
+
+                          <img class="b-speakers_view_pic" src="assets/images/PyCharm_Logo.png" alt="PyCharm IDE" width="140" height="140" />
+
+                          <h3>PyCharm<span class="m-colorized">IDE</span></h3>
+
+                      </div>
+
+                  </div>
+
+                  <div class="b-speakers_cell col-xs-12 col-sm-6 col-md-4">
+
+                      <div class="b-speakers_view">
+
+                          <img class="b-speakers_view_pic" src="assets/images/python.jpg" alt="Python" width="140" height="140" />
+
+                          <h3>Python<span class="m-colorized">Data preprocessing</span></h3>
+
+
+                      </div>
+
+                  </div>
+
+                  <div class="b-speakers_cell col-xs-12 col-sm-6 col-md-4">
+
+                      <div class="b-speakers_view">
+
+                          <img class="b-speakers_view_pic" src="assets/images/tableau.jpg" alt="Tableau" width="140" height="140" />
+
+                          <h3>Tableau<span class="m-colorized">Visualisation tool</span></h3>
+
+
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+      </section>
+      <!-- TOOLS section end -->
+       <!-- 
+      <section class="b-pricing b-section" id="process">
+          <div class="b-section_container container">
+            <header class="b-section_header b-section_header__stroked">
+                <h2>Vorgang</h2>
+            </header>
+            <img src="./assets/images/vorgang.png" width="100%"/>
+          </div>
+      </section> -->
+
+      <!-- MODERNIZR -->
+      <script type="text/javascript" src="assets/plain/build/modernizr.min.js"></script>
+
+      <!-- JQUERY and PLUG-INs -->
+      <script type="text/javascript" src="assets/plain/build/plugins.min.js"></script>
+
+      <!-- CORE -->
+      <script type="text/javascript" src="assets/plain/build/template.min.js"></script>
+
+  </body>
+</html>
